@@ -10,7 +10,7 @@ const dotenv=require('dotenv');
 
 const cookieParser=require('cookie-parser');
 
-const port=process.env.PORT || 5000 ;
+var port=process.env.PORT ;
 
 dotenv.config({ path:'./.env'});
 
